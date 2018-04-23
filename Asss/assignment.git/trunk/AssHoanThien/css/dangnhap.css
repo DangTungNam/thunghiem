@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+.container>header{
+	background:black;
+	padding-bottom: 8%;
+	margin:0px;
+}
+.container>header img{
+	position:absolute;
+	top:30px;
+	left:490px;
+}
+.taikhoan{
+}
+.taikhoan>ul{
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:80px;
+	left:150px;
+	font-size:20px;
+}
+.taikhoan>ul>li{
+	list-style:none;
+	display:inline-block;
+}
+.taikhoan a{
+	text-decoration:none;
+	color:#CCC;
+	margin: 10px;
+	font-weight:bold;
+}
+.taikhoan a:hover{
+	color:#F00;
+}
+.form-control{
+	position: absolute;
+	top:80px;
+	right:150px;
+	padding:5px;
+	width:12%; 
+	outline:none;
+	border:1px solid gray;
+	border-radius:5px;
+	color:#999;
+	font-size:14px;
+}
+.timkiem{
+	position:absolute;
+	top:30px;
+	right:150px;
+}
+.timkiem>label{
+	color:#CCC;
+	margin:10px;
+}
+.giohang{
+	position:absolute;
+	top:30px;
+	right:410px;
+}
+.giohang a{
+	text-decoration:none;
+	color:#CCC;
+	font-size:16px;
+	font-weight:bold;
+}
+.giohang a:hover{
+	color:#F00;
+}
+.menu{
+	line-height:50px;
+}
+.menu>ul{
+	background:#CCC;
+	padding:0px;
+	margin:0px;
+}
+.menu>ul img{
+	position:relative;
+	margin:0px 30px 0px 200px;
+	padding:0px 30px 0px 0px;
+}
+.menu>ul>li{
+	display:inline-block;
+	list-style:none;
+	position:relative;
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	margin:0px 30px 0px 30px;
+}
+.menu a:hover{
+}
+.menu ul ul{
+	position:absolute;
+	display:none;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	width:400px;
+	background-color:white;
+	border:2px solid black;	
+	border-top:none;
+}
+.menu ul ul a{
+	color:#999;
+	text-decoration:none;
+	padding:0px;
+	margin:0px 0px 0px 20px;
+	font-size:12px;
+}
+.menu>ul>li:hover>ul{
+	display:block;
+}
+.menu ul ul a:hover{
+	color:#C30;
+}
+.duong{
+	width:50%;
+	float:left;
+}
+.box{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.dangnhap h2{text-align:center; font-size:18px; color:#C00; margin-top:30px;}
+.table input{height:25px; width:220px;padding:2px; margin:5px 0px 5px 30px; border:1px solid #CCC; border-radius:3px;}
+.table input:focus{box-shadow:0 0 8px #0CF;}
+.table input:hover{border:1px solid #09F; }
+.table button{width:110px; height:40px; margin:5px 1px 10px 0px; border:none; background:#F03; color:white; font-size:15px; font-weight:bold;}
+.table button:hover{background:#C30;}
+.cach{
+	margin:0px;
+}
+.khoangcach{
+	margin:0px 0px 0px 0px;
+}
+.container>footer{
+	clear:both;
+}
+.cot{
+	width:24%;
+	float:left;
+	text-align:left;
+	margin:5px;
+}
+.cot>ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.cot>ul>li{
+	margin:5px;
+	font-size:16px;
+	color:#999;
+}
+.vitri{
+	background: url('../images/icondinhvi.png') no-repeat 10px top;
+	background-size:15px auto;
+	padding: 0px 5px 0px 30px;
+}
+.telephone{
+	background: url('../images/icondienthoai.png') no-repeat 10px top;
+	background-size:15px auto;
+	padding: 0px 5px 0px 30px;
+}
+.mail{
+	background: url('../images/mailicon.png') no-repeat 10px top;
+	background-size:15px auto;
+	padding: 0px 5px 0px 30px;
+}
+.cot a{
+	color:#999;
+	text-decoration:none;
+}
+.cot a:hover{ color:#C03; }
+.cuoicung{
+	clear:both;
+	background:black;
+	line-height:30px;
+	text-align:center;
+	padding:30px 0px 30px 0px;
+}
+.cuoicung a{
+	text-decoration:none;
+	color:#CCC;
+	font-size:40px;
+	padding:0px 0px 0px 0px;
+}
+.cuoicung p{
+	color:#CCC;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:12px;
+}
+.linhtinh{ padding:10px 10px 10px 10px; text-align:center; color:#999; }
